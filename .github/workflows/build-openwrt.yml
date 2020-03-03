@@ -6,12 +6,12 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt
+name: Build Cheng-OpenWrt
 
 on:
   release:
     types: [published]
-  #push:
+  push:
     branches:
       - master
 #    paths:
